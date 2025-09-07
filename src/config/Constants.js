@@ -6,4 +6,10 @@ export const API_URLS = {
   GETREALESTATEBYID: `${process.env.REACT_APP_API_URL}/real-estate`,
   UPDATERALESTATESTATUS: `${process.env.REACT_APP_API_URL}/real-estate`,
   DELETEREALESTATE: `${process.env.REACT_APP_API_URL}/real-estate`,
+
+  // Contact Inquiries
+  GETCONTACTINQUIRIES: `${process.env.REACT_APP_API_URL}/real-estate/contacts`,
+  GETCONTACTINQUIRYBYID: `${process.env.REACT_APP_API_URL}/real-estate/contacts`,
+  UPDATECONTACTINQUIRYSTATUS: `${process.env.REACT_APP_API_URL}/real-estate/contacts`,
+  DELETECONTACTINQUIRY: `${process.env.REACT_APP_API_URL}/real-estate/contacts`,
 }
